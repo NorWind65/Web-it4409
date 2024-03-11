@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"/>
+    <title>Đăng Ký</title>
+</head>
+<body>
+    <div class="main" >
+
+        <div class="Title">
+            <h1>Đăng ký</h1>
+            <p> Nhanh chóng và dễ dàng</p>
+        </div>
+
+        <div class="INP">
+    
+            <div class="input_Ho">
+                <input type="text" class="HO" id="HO" placeholder="Họ" >
+                <i class="img" id="anh1" ></i>
+                
+            </div>
+
+            <div class="input_Ten">
+                <input type="text" class="TEN" id="TEN"  placeholder="Tên" >
+               <i class="img" id="anh2" ></i>
+            </div>
+            <div>
+                <p class="nof" id="nof1">*Họ bạn là gì?</p>
+                <p class="nof" id="nof2">*Tên bạn là gì?</p>
+            </div>
+            <div class="inp-email-sdt"  style="position:relative; padding-top:15px ;  ">
+                <input type="text" class="SDT"id="SDT" placeholder="Số di động hoặc Email" >
+                <i class="img" id="anh3" style="top: 24px" ></i>
+            </div>
+            <div>
+                <p class="nof" id="nof3">*Bạn sẽ sử dụng thông tin này khi đăng nhập và khi cần đặt lại mật khẩu</p>
+            </div>
+
+            <div class="inp-pw"  style="position:relative; padding-top:15px ;" >
+                <input type="password" class="PW"id="PW" placeholder="Mật khẩu mới">
+                <i class="img" id="anh4" style="top: 24px" ></i>
+            </div>
+            <div>
+                <p class="nof" id="nof4">*Nhập mật khẩu có tối thiểu 6 ký tự bao gồm số, chữ cái và dấu chấm câu(như ! và &)</p>
+            </div>
+
+            <div class="Birday">
+                <div class="N_G" >
+                    Ngày sinh
+                    <i class="img2" ></i>
+                    <i class="img" id="anh5" style="top: 0; right: 0;" ></i>
+                </div>
+                <br>
+               <span class="NgaySinh">
+                    <select class="DAY" id="DAY" name="Ngày">
+                        <option value="1" >1</option>
+                        <option value="2" >2</option>
+                        <option value="3" >3</option>
+                        <option value="4" >4</option>
+                        <option value="5" >5</option>
+                        <option value="6" >6</option>
+                        <option value="7" >7</option>
+                        <option value="8" >8</option>
+                        <option value="9" >9</option>
+                        <option value="10" >10</option>
+                        <option value="11" selected="1">11</option>
+                        <option value="12" >12</option>
+                        <option value="13" >13</option>
+                        <option value="14" >14</option>
+                        <option value="15" >15</option>
+                        <option value="16" >16</option>
+                        <option value="17" >17</option>
+                        <option value="18" >18</option>
+                        <option value="19" >19</option>
+                        <option value="20" >20</option>
+                        <option value="21" >21</option>
+                        <option value="22" >22</option>
+                        <option value="23" >23</option>
+                        <option value="24" >24</option>
+                        <option value="25" >25</option>
+                        <option value="26" >26</option>
+                        <option value="27" >27</option>
+                        <option value="28" >28</option>
+                        <option value="29" >29</option>
+                        <option value="30" >30</option>
+                        <option value="31" >31</option>
+                    </select>
+                    <select class="MONTH" id="MONTH" name="Thang">
+                        <option value="1" >1</option>
+                        <option value="2" >2</option>
+                        <option value="3" selected="1" >3</option>
+                        <option value="4" >4</option>
+                        <option value="5" >5</option>
+                        <option value="6" >6</option>
+                        <option value="7" >7</option>
+                        <option value="8" >8</option>
+                        <option value="9" >9</option>
+                        <option value="10" >10</option>
+                        <option value="11" >11</option>
+                        <option value="12" >12</option>
+                    </select>
+                        <select class="YEAR" id="YEAR" name="Nam">
+                        <option value="2024" >2024</option>
+                        <option value="2023" >2023</option>
+                        <option value="2022" >2022</option>
+                        <option value="2021" >2021</option>
+                        <option value="2020" >2020</option>
+                        <option value="2019" >2019</option>
+                        <option value="2018" >2018</option>
+                        <option value="2017" >2017</option>
+                        <option value="2016" >2016</option>
+                        <option value="2015" >2015</option>
+                        <option value="2014" >2014</option>
+                        <option value="2013" >2013</option>
+                        <option value="2012" >2012</option>
+                        <option value="2011" >2011</option>
+                        <option value="2010" >2010</option>
+                        <option value="2009" >2009</option>
+                        <option value="2008" >2008</option>
+                        <option value="2007" >2007</option>
+                        <option value="2006" >2006</option>
+                        <option value="2005" >2005</option>
+                        <option value="2004" >2004</option>
+                        <option value="2003" >2003</option>
+                        <option value="2002" >2002</option>
+                        <option value="2001" >2001</option>
+                        <option value="2000" >2000</option>
+                    </select>
+               </span>
+            </div>
+
+            <div>
+                <p class="nof" id="nof5">*Hình như bạn đã nhập sai thông tin.Hãy nhớ dùng ngày sinh nhật của mình nhé</p>
+            </div>
+
+            <div class="Gender">
+                <div class="N_G" >
+                    Giới tính
+                    <i class="img2" ></i>
+                    <i class="img" id="anh6" style="top: 0; right: 0;" ></i>
+                </div>
+             
+                <span class="GioiTinh" data-type="radio">
+                    <span class="XX">
+                        <label>NỮ</label>
+                        <input type="radio" class="sex" value="1">
+                    </span>
+                    <span class="XX">
+                        <label>NAM</label>
+                        <input type="radio" class="sex" value="2">
+                    </span>
+                    <span class="XX">
+                        <label>Tùy Chỉnh</label>
+                        <input type="radio" class="sex" value="-1">
+                    </span>
+                </span>
+            </div>
+        </div>
+        <div class="infor">
+            <p class="lienhe">
+                Những người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook. 
+               <a style="color: rgb(0, 96, 134);">
+                Tìm hiểu thêm.</a>
+            </p>
+            <br>
+            <p class="chinhsach">
+                Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a style="color: rgb(0, 96, 134);">Điều khoản, Chính sách quyền riêng tư</a> và <a style="color: rgb(0, 96, 134);">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+            </p>
+            <div class="Ed">
+                <button class="DKy" onclick="check()"><a style="color: #fff;">Đăng ký</a></button> 
+            </div>
+        </div>
+    </div>
+    <script src="event.js"></script>
+</body>

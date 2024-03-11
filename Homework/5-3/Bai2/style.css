@@ -1,0 +1,169 @@
+.main{
+    width: 432px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #a7a7a7;
+}
+
+.Title{
+    border-bottom: 1px solid #a7a7a7;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    height: 15%;
+}
+
+.INP{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    padding: 5% ;
+  
+}
+input{
+    padding-left: 10px;  
+    height: 35px;
+}
+
+.input_Ho {
+    position: relative;
+    width: 46%;
+    display: inline-block;
+    margin-right: 5%;
+
+}
+
+.input_Ten{
+
+    position: relative;
+    display: inline-block;
+    width:46%;
+}
+.HO , .TEN{
+
+    border: 1px solid #a7a7a7;
+    border-radius: 8px;
+    width: 90%;
+}
+
+.SDT , .PW{
+    width: 95%;
+    border: 1px solid #a7a7a7;
+    border-radius: 8px;
+
+}
+
+.Birday , .Gender{
+    margin-top: 20px;
+    margin-right: 15px;
+    text-align: left;
+    position: relative;
+}
+
+.N_G{
+    
+    font-size: 14px;  
+}
+
+select{
+    border-radius: 4px;
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 30%;
+    margin-right: 6px;
+}
+
+.XX{
+    border: 1px solid #a7a7a7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: inline-block;
+    height: 36px;
+    margin-top: 8px ;
+    margin-right: 6px;
+    padding-top: 8px;
+    position: relative;
+    width: 30%;
+   
+    
+}
+
+.sex{
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+label, .chinhsach, .lienhe{
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 28px 0 10px;
+}
+
+.infor{
+    width: 95%;
+    margin: auto;
+}
+
+.DKy{
+    position: relative;
+    display: inline-block;
+    background-color: green;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border: #fff;
+    text-align: center;
+}
+.Ed{
+    position: relative;
+    display: flex;
+    justify-content: center; align-items: center;
+   
+}
+
+.nof{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    display: none;
+}
+
+.img{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/EV7ny501e-i.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    display: none;
+}
+
+.img2{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/EV7ny501e-i.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-position: 0 -60px;
+}
+
+
+
